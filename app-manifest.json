@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "notes": "Installers for Mac (.dmg), Windows (Setup.exe) and Linux (install.sh).",
+  "downloads": {
+    "mac": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.zip",
+    "win": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Setup.exe",
+    "linux": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Linux-x64.tar.gz"
+  },
+  "artifacts": {
+    "main": {
+      "mac-arm64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.zip",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.pkg",
+        "dmg": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.dmg",
+        "updateSha256": "21c8eee01c83dca63ef389252160b8b44545c278608e2aafd08059009e1c08c9"
+      },
+      "mac-x64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-Intel.zip",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-Intel.pkg",
+        "dmg": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-Intel.dmg",
+        "updateSha256": "bf7d7dc75841c3b429982e803c64baba0f3693f8055d3e72a0960dba03aa1e6f"
+      },
+      "win-x64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Setup.exe",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Setup.exe",
+        "updateSha256": "fb6e99bd249635c7eddfb95ca59a3e97ab96a69ab785ca056ca6edda2d52ac77"
+      },
+      "linux-x64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Linux-x64.tar.gz",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Linux-x64.tar.gz",
+        "installer": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-install.sh",
+        "updateSha256": "623308372295ec30b93fe2fa7e0e483a7353e5a9d7606fb7fad628f07f808bee"
+      }
+    },
+    "team": {
+      "mac-arm64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-macOS-AppleSilicon.zip",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-macOS-AppleSilicon.pkg",
+        "dmg": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-macOS-AppleSilicon.dmg"
+      },
+      "mac-x64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-macOS-Intel.zip",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-macOS-Intel.pkg",
+        "dmg": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-macOS-Intel.dmg"
+      },
+      "win-x64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-Setup.exe",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-Setup.exe"
+      },
+      "linux-x64": {
+        "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-Linux-x64.tar.gz",
+        "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-Linux-x64.tar.gz",
+        "installer": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Team-install.sh"
+      }
+    }
+  }
+}
