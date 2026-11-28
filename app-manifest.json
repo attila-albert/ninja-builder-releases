@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "notes": "Installers for Mac (.dmg), Windows (Setup.exe) and Linux (install.sh).",
   "downloads": {
     "mac": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.zip",
@@ -12,24 +12,24 @@
         "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.zip",
         "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.pkg",
         "dmg": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-AppleSilicon.dmg",
-        "updateSha256": "21c8eee01c83dca63ef389252160b8b44545c278608e2aafd08059009e1c08c9"
+        "updateSha256": "b2573223d8a0c7102b393cfea8ed9f5dab1b1caa511dfd92c3747d70c6356318"
       },
       "mac-x64": {
         "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-Intel.zip",
         "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-Intel.pkg",
         "dmg": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-macOS-Intel.dmg",
-        "updateSha256": "bf7d7dc75841c3b429982e803c64baba0f3693f8055d3e72a0960dba03aa1e6f"
+        "updateSha256": "3dc765868d709b2fdb1d1255fba569e4a6d8e61c780bc790e3e0bab6de4029cc"
       },
       "win-x64": {
         "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Setup.exe",
         "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Setup.exe",
-        "updateSha256": "fb6e99bd249635c7eddfb95ca59a3e97ab96a69ab785ca056ca6edda2d52ac77"
+        "updateSha256": "06c9b58f0da0dc9addd98e1ff01a221ce83fb805439c465d97e4f5f1d54262a8"
       },
       "linux-x64": {
         "update": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Linux-x64.tar.gz",
         "download": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-Linux-x64.tar.gz",
         "installer": "https://github.com/attila-albert/ninja-builder-releases/releases/latest/download/Ninja-Builder-install.sh",
-        "updateSha256": "623308372295ec30b93fe2fa7e0e483a7353e5a9d7606fb7fad628f07f808bee"
+        "updateSha256": "0939728fbed8a71870660618c3622ccb34c68bfe7c942847027c5aa730d97e96"
       }
     },
     "team": {
